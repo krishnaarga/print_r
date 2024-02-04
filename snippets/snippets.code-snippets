@@ -1,0 +1,125 @@
+{
+  "Error Reporting On":{
+    "prefix": "!er",
+    "body": [
+      "ini_set('display_errors', 1);",
+      "ini_set('display_startup_errors', 1);",
+      "error_reporting(E_ALL);"
+    ],
+    "description": "Display All PHP Errors"
+  },
+  "Pre, Print_r with Exit":{
+    "prefix": "!ppe",
+    "body": [
+      "echo \"<br><pre>\";",
+      "print_r(${1:});",
+      "exit(\"print_r exit in <b>\" . __FILE__ . \"</b> on line <b>\" . __LINE__ . \"</b>\");"
+    ],
+    "description": "Pre, Print_r with Exit"
+  },
+  "Pre with Print_r":{
+    "prefix": "!pp",
+    "body": [
+      "echo \"<pre>\";",
+      "print_r(${1:});",
+      "echo \"</pre>\";"
+    ],
+    "description": "Pre with Print_r"
+  },
+  "Ternary Operator":{
+    "prefix": "!ter",
+    "body": [
+      "$${1:veriable} = ${2:condition} ? ${3:if_true} : ${4:if_false};"
+    ],
+    "description": "Ternary Operator"
+  },
+  "Function":{
+    "prefix": "!fn",
+    "body": [
+      "function ${1:functionName}()",
+      "{",
+      "    ${2:// Your Code}",
+      "}"
+    ],
+    "description": "Function"
+  },
+  "Function with argument":{
+    "prefix": "!fna",
+    "body": [
+      "function ${1:functionName}(${2:Type} $${3:args})",
+      "{",
+      "    ${4:// Your Code}",
+      "}"
+    ],
+    "description": "Function with argument"
+  },
+  "Index Array":{
+    "prefix": "!ar",
+    "body": [
+      "[${1:value}, ${2:value}];"
+    ],
+    "description": "Index Array"
+  },
+  "Associative Array":{
+    "prefix": "!ark",
+    "body": [
+      "['${1:key}' => ${2:value}, '${3:key}' => ${4:value}];"
+    ],
+    "description": "Associative Array"
+  },
+  "Doc Comment for Class":{
+    "prefix": "!cc",
+    "body": [
+      "/**",
+      " * ${1:ClassName}",
+      " * ",
+      " * @package ${1:ClassName}",
+      " * @version 1.0.0 ${2:\n * @author ${3:Your Name} <${4:your_mail@mail.com}>}",
+      " * @access public ${5:\n * @property ${6:public} $${7:data_member}}",
+      " * @method ${8:__construct}",
+      " * ",
+      " */"
+    ],
+    "description": "Doc Comment for Class"
+  },
+  "Class":{
+    "prefix": "!cl",
+    "body": [
+      "class ${1:ClassName}()",
+      "{",
+      "    ${2:// Your Code}",
+      "}"
+    ],
+    "description": "Class"
+  },
+  "Class Extends":{
+    "prefix": "!cle",
+    "body": [
+      "class ${1:ClassName} extends ${2:ParentClass}()",
+      "{",
+      "    ${3:// Your Code}",
+      "}"
+    ],
+    "description": "Class Extends"
+  },
+  "Class Interfaces":{
+    "prefix": "!cli",
+    "body": [
+      "class ${1:ClassName} implements ${2:Interfaces}()",
+      "{",
+      "    ${3:// Your Code}",
+      "}"
+    ],
+    "description": "Class Interfaces"
+  },
+  "Class Extends with Interfaces":{
+    "prefix": "!clei",
+    "body": [
+      "class ${1:ClassName} extends ${2:ParentClass} implements ${3:Interfaces}()",
+      "{",
+      "    ${4:// Your Code}",
+      "}"
+    ],
+    "description": "Class Extends with Interfaces"
+  }
+}
