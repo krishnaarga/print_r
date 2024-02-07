@@ -11,9 +11,9 @@
 ### PHP Tags
 | Snippet | Output |
 | ---   | --- |
-| !er   | ![er](https://raw.githubusercontent.com/krishnaarga/print_r/main/er.png) |
-| !ppe  | ![ppe](https://raw.githubusercontent.com/krishnaarga/print_r/main/ppe.png) |
-| !pp   | ![pp](https://raw.githubusercontent.com/krishnaarga/print_r/main/pp.png) |
+| !er   | ![er](https://raw.githubusercontent.com/krishnaarga/print_r/main/images/er.png) |
+| !ppe  | ![ppe](https://raw.githubusercontent.com/krishnaarga/print_r/main/images/ppe.png) |
+| !pp   | ![pp](https://raw.githubusercontent.com/krishnaarga/print_r/main/images/pp.png) |
 | !ter  | `$veriable = condition ? if_true : if_false;` |
 
 ### Function
