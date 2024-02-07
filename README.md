@@ -11,9 +11,9 @@
 ### PHP Tags
 | Snippet | Output |
 | ---   | --- |
-| !er   | `ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);` |
-| !ppe  | `echo "<br><pre>"; print_r(); exit("print_r exit in <b>" . __FILE__ . "</b> on line <b>" . __LINE__ . "</b>");` |
-| !pp   | `echo "<pre>"; print_r(); echo "</pre>";` |
+| !er   | ![er](https://raw.githubusercontent.com/krishnaarga/print_r/main/er.png) |
+| !ppe  | ![ppe](https://raw.githubusercontent.com/krishnaarga/print_r/main/ppe.png) |
+| !pp   | ![pp](https://raw.githubusercontent.com/krishnaarga/print_r/main/pp.png) |
 | !ter  | `$veriable = condition ? if_true : if_false;` |
 
 ### Function

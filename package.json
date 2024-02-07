@@ -1,10 +1,10 @@
 {
-    "name": "print_r",
+    "name": "printr",
     "displayName": "print_r",
     "description": "It is providing doc comment for class with print_r function with pre tag along with exit function.",
-    "version": "1.0.0",
+    "version": "0.0.3",
     "publisher": "KrishnaKanhaiya",
-    "license": "MIT",
+    "license": "GPLv3",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.66.0"
@@ -20,18 +20,14 @@
     "bugs": {
 		"url": "https://github.com/krishnaarga/print_r/issues"
 	},
-    "categories": [
-        "PHP",
-        "Programming Languages",
-        "Snippets",
-    ],
     "keywords": [
 		"PHP",
-        "PHP 8",
-		"Laravel",
-        "Coding",
-        "Snippets"
+		"Laravel"
 	],
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
     "contributes": {
         "snippets": [
             {
