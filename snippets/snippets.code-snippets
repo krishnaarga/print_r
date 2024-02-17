@@ -85,7 +85,7 @@
   "Class":{
     "prefix": "!cl",
     "body": [
-      "class ${1:ClassName}()",
+      "class ${1:ClassName}",
       "{",
       "    ${2:// Your Code}",
       "}"
@@ -95,7 +95,7 @@
   "Class Extends":{
     "prefix": "!cle",
     "body": [
-      "class ${1:ClassName} extends ${2:ParentClass}()",
+      "class ${1:ClassName} extends ${2:ParentClass}",
       "{",
       "    ${3:// Your Code}",
       "}"
@@ -105,7 +105,7 @@
   "Class Interfaces":{
     "prefix": "!cli",
     "body": [
-      "class ${1:ClassName} implements ${2:Interfaces}()",
+      "class ${1:ClassName} implements ${2:Interfaces}",
       "{",
       "    ${3:// Your Code}",
       "}"
@@ -115,7 +115,7 @@
   "Class Extends with Interfaces":{
     "prefix": "!clei",
     "body": [
-      "class ${1:ClassName} extends ${2:ParentClass} implements ${3:Interfaces}()",
+      "class ${1:ClassName} extends ${2:ParentClass} implements ${3:Interfaces}",
       "{",
       "    ${4:// Your Code}",
       "}"

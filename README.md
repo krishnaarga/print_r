@@ -6,6 +6,9 @@
 ![PHP5](https://img.shields.io/badge/PHP-%5E5.4-blue.svg)
 [![MIT](https://img.shields.io/badge/License-MIT-%2300C853.svg)](https://github.com/krishnaarga/print_r/blob/main/LICENSE)
 
+## Snippets Demo
+![demo](https://raw.githubusercontent.com/krishnaarga/print_r/main/images/demo.gif)
+
 ## Features
 
 ### PHP Tags
