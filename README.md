@@ -35,10 +35,10 @@
 | Snippet | Output |
 | ---   | --- |
 | !cc   | Doc Comment for Class |
-| !cl   | `class ClassName(){ ... }` |
-| !cle  | `class ClassName extends ParentClass(){ ... }` |
-| !cli  | `class ClassName implements Interfaces(){ ... }` |
-| !clei | `class ClassName extends ParentClass implements Interfaces(){ ... }` |
+| !cl   | `class ClassName{ ... }` |
+| !cle  | `class ClassName extends ParentClass{ ... }` |
+| !cli  | `class ClassName implements Interfaces{ ... }` |
+| !clei | `class ClassName extends ParentClass implements Interfaces{ ... }` |
 
 ## Known Issues
 If suggestions menu does not open, press `Ctrl+space` to open it manually.
