@@ -42,6 +42,11 @@
 | !pf   | `public function functionName(){ ... }` |
 | !psf  | `public static function functionName(){ ... }` |
 
+### Work with CSV
+| Snippet   | Output    |
+| ---       | ---       |
+| !csvread  | Read Existing CSV file or from form. |
+
 ## Known Issues
 If suggestions menu does not open, press `Ctrl+space` to open it manually.
 

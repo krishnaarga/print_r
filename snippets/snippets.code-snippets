@@ -142,4 +142,22 @@
     ],
     "description": "Public Static Function"
   },
+  "Read CSV File":{
+    "prefix": "!csvread",
+    "body": [
+      "try {",
+      "    \\$storeCSVData = [];\n${1:    // if ((\\$file = fopen(\\$_FILES['csv']['tmp_name'], 'r')) !== FALSE) :}\n${2:    if ((\\$file = fopen('${3:test}.csv', 'r')) !== FALSE) :}",
+      "        \\$header = fgetcsv(\\$file, 10000, ','); # Read the header",
+      "        while ((\\$data = fgetcsv(\\$file, 1000, ',')) !== FALSE) :",
+      "            \\$storeCSVData[] = \\$data;",
+      "        endwhile;",
+      "        fclose(\\$file);",
+      "    endif;",
+      "    ${4:echo '<pre>';\n    print_r(\\$header); # Header\n    print_r(\\$storeCSVData); # Data\n    echo '</pre>';}",
+      "} catch (Throwable \\$th) {",
+      "    echo \\$th->getMessage(); exit;",
+      "}",
+    ],
+    "description": "Read CSV File"
+  },
 }
