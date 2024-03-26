@@ -56,14 +56,14 @@
   "Index Array":{
     "prefix": "!ar",
     "body": [
-      "[${1:value}, ${2:value}];"
+      "['${1:value1}', '${2:value2}', '${3:value3}', '${4:value4}', '${5:value5}'];"
     ],
     "description": "Index Array"
   },
   "Associative Array":{
     "prefix": "!ark",
     "body": [
-      "['${1:key}' => ${2:value}, '${3:key}' => ${4:value}];"
+      "['${1:key1}' => '${2:value1}', '${3:key2}' => '${4:value2}', '${5:key3}' => '${6:value3}'];"
     ],
     "description": "Associative Array"
   },
@@ -121,5 +121,25 @@
       "}"
     ],
     "description": "Class Extends with Interfaces"
-  }
+  },
+  "Public Function":{
+    "prefix": "!pf",
+    "body": [
+      "public function ${1:functionName}()",
+      "{",
+      "    ${2:// Your Code}",
+      "}"
+    ],
+    "description": "Public Function"
+  },
+  "Public Static Function":{
+    "prefix": "!psf",
+    "body": [
+      "public static function ${1:functionName}()",
+      "{",
+      "    ${2:// Your Code}",
+      "}"
+    ],
+    "description": "Public Static Function"
+  },
 }

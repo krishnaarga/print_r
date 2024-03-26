@@ -28,8 +28,8 @@
 ### Array
 | Snippet | Output |
 | ---   | --- |
-| !ar   | `[value, value];` |
-| !ark  | `['key' => value, 'key' => value];` |
+| !ar   | `['value1', 'value2', 'value3', 'value4', 'value5'];` |
+| !ark  | `['key1' => 'value1', 'key2' => 'value2', 'key3' => 'value3'];` |
 
 ### Class & Interface
 | Snippet | Output |
@@ -39,6 +39,8 @@
 | !cle  | `class ClassName extends ParentClass{ ... }` |
 | !cli  | `class ClassName implements Interfaces{ ... }` |
 | !clei | `class ClassName extends ParentClass implements Interfaces{ ... }` |
+| !pf   | `public function functionName(){ ... }` |
+| !psf  | `public static function functionName(){ ... }` |
 
 ## Known Issues
 If suggestions menu does not open, press `Ctrl+space` to open it manually.
