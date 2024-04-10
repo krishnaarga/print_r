@@ -1,11 +1,11 @@
 {
     "name": "printr",
-    "displayName": "print_r",
-    "description": "Print_r is providing doc comment for class and print_r function with pre tag along with exit function.",
-    "version": "1.0.0",
+    "displayName": "Print_r PHP Snippets",
+    "description": "Print_r is a PHP snippet that will help you code faster.",
+    "version": "2.0.0",
     "publisher": "KrishnaKanhaiya",
     "license": "GPLv3",
-    "icon": "icon.png",
+    "icon": "./images/icon.png",
     "engines": {
         "vscode": "^1.66.0"
     },

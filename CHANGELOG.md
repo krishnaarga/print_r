@@ -4,6 +4,10 @@
 
 All notable changes to the "basicsnippets" extension will be documented in this file.
 
+## [Released Version (2.0.0)]
+- Change title and description for extension.
+- Change icon directory.
+
 ## [Released Version (1.0.0)]
 - Read Existing CSV file.
 - Read CSV file from form.

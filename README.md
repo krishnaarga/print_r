@@ -1,4 +1,4 @@
-# Print_r is PHP Snippets - VScode extension
+# Print_r is a PHP Snippets - VScode extension
 
 [![VScode](https://img.shields.io/badge/Extension-VScode-blueviolet.svg)](https://marketplace.visualstudio.com/items?itemName=KrishnaKanhaiya.printr)
 ![Snippets](https://img.shields.io/badge/Type-Snippets-yellow.svg)
