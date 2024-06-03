@@ -122,6 +122,16 @@
     ],
     "description": "Class Extends with Interfaces"
   },
+  "__construct":{
+    "prefix": "__c",
+    "body": [
+      "public function ${1:__construct}(${2})",
+      "{",
+      "\t${3:// Your Code}",
+      "}"
+    ],
+    "description": "__construct()"
+  },
   "Public Function":{
     "prefix": "pf",
     "body": [
@@ -159,5 +169,29 @@
       "}",
     ],
     "description": "Read CSV File"
+  },
+  "Download Array to CSV File":{
+    "prefix": "csvdownload",
+    "body": [
+      "try {",
+      "\t\\$arr = [\n\t\t['Sl. No.' => 1, 'name' => 'One', 'email' => 'one@xyz.com'],\n\t\t['Sl. No.' => 2, 'name' => 'Two', 'email' => 'two@xyz.com'],\n\t];\n",
+  
+      "\t\\$filename = 'export.csv';",
+      "\theader('Content-Type: application/csv');",
+      "\theader('Content-Disposition: attachment; filename={\\$filename};');\n",
+      
+      "\t\\$file = fopen('php://output', 'w');",
+      "\t\\$header = array_keys(\\$arr[0]); # Get Header from array.",
+      "\tfputcsv(\\$file, \\$header, ','); # Add Header in CSV file.\n",
+  
+      "\tforeach (\\$arr as \\$row) :",
+      "\t\tfputcsv(\\$file, \\$row, ',');",
+      "\tendforeach;",
+      "\tfclose(\\$file);",
+      "} catch (Throwable \\$th) {",
+      "\techo \\$th->getMessage(); exit;",
+      "}"
+    ],
+    "description": "Download Array to CSV File"
   },
 }

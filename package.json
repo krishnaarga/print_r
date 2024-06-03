@@ -2,7 +2,7 @@
     "name": "printr",
     "displayName": "Print_r PHP Snippets",
     "description": "Print_r is a PHP snippet that will help you code faster.",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "publisher": "KrishnaKanhaiya",
     "license": "GPLv3",
     "icon": "./images/icon.png",

@@ -36,6 +36,7 @@
 | cle      | `class ClassName extends ParentClass{ ... }` |
 | cli      | `class ClassName implements Interfaces{ ... }` |
 | clei     | `class ClassName extends ParentClass implements Interfaces{ ... }` |
+| __c      | `public function __construct(){ ... }` |
 | pf       | `public function functionName(){ ... }` |
 | psf      | `public static function functionName(){ ... }` |
 
@@ -43,6 +44,7 @@
 | Shortcut   | Output    |
 | ---        | ---       |
 | csvread    | Read Existing CSV file or from form. |
+| csvdownload| CSV file download from array. |
 
 ## Known Issues
 If suggestions menu does not open, press `Ctrl+space` to open it manually.
