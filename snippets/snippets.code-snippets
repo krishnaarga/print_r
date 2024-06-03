@@ -13,7 +13,7 @@
     "body": [
       "echo \"<br><pre>\";",
       "print_r(${1:});",
-      "exit(\"print_r exit in <b>\" . __FILE__ . \"</b> on line <b>\" . __LINE__ . \"</b>\");"
+      "exit(\"\nprint_r exit in <b>\" . __FILE__ . \"</b> on line <b>\" . __LINE__ . \"</b>\");"
     ],
     "description": "Pre, Print_r with Exit"
   },
