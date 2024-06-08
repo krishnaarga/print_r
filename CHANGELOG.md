@@ -4,6 +4,9 @@
 
 All notable changes to the "basicsnippets" extension will be documented in this file.
 
+## [Released Version (2.0.3)]
+- Add shortcut for CSV file download from array.
+
 ## [Released Version (2.0.2)]
 - Add constructor method
 - CSV file download from array.

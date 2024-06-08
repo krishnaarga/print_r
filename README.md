@@ -44,7 +44,7 @@
 | Shortcut   | Output    |
 | ---        | ---       |
 | csvread    | Read Existing CSV file or from form. |
-| csvdownload| CSV file download from array. |
+| csvdownload | CSV file download from array. |
 
 ## Known Issues
 If suggestions menu does not open, press `Ctrl+space` to open it manually.
